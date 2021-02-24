@@ -1,0 +1,16 @@
+{
+  "name": "node-rest-api",
+  "version": "1.0.0",
+  "description": "This is vanilla node.js REST api built with no frameworks. Inspiration from Traversy media video on the same.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Nicky",
+  "license": "ISC",
+  "devDependencies": {
+    "i": "^0.3.6",
+    "nodemon": "^2.0.7"
+  }
+}
