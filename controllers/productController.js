@@ -52,6 +52,8 @@ async function createProduct(req, res){
     }
 
 }
+//@desc Updating a product
+//@route UPDATE /api/products/
 async function updateProduct(req, res, id){
     try {
         const product = await Product.findById(id)
